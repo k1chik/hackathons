@@ -2,7 +2,7 @@
 
 **AI-powered equipment inspection with compounding institutional memory**
 
-Live: [sensill.pages.dev](https://sensill.pages.dev) &nbsp;|&nbsp; Worker: [sensill-worker.kkukadia.workers.dev](https://sensill-worker.kkukadia.workers.dev) &nbsp;|&nbsp; GitHub: [github.com/3lizabethgu0/Sensill](https://github.com/3lizabethgu0/Sensill)
+Live: [sensill.pages.dev](https://sensill.pages.dev) &nbsp;|&nbsp; Worker: [sensill-worker.kkukadia.workers.dev](https://sensill-worker.kkukadia.workers.dev) &nbsp;|&nbsp; 
 
 The name comes from *sensilla* — the sensory organs on insect antennae that detect the world with precision. Every inspection adds another data point the system never forgets.
 
@@ -325,9 +325,3 @@ The AI model that performs equipment inspection analysis within the deployed app
 Used for semantic storage and retrieval of inspection history. This is a core component of the product architecture.
 
 The dual-search memory loop, offline sync architecture, multi-tenant isolation design, voice-first interaction model, and the system's self-reinforcing feedback loop are original work by the Sensill team.
-
----
-
-## GitHub
-
-[github.com/3lizabethgu0/Sensill](https://github.com/3lizabethgu0/Sensill)
