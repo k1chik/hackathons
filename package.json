@@ -1,0 +1,17 @@
+{
+  "name": "sensill",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=packages/worker\" \"npm run dev --workspace=packages/web\"",
+    "build": "npm run build --workspace=packages/worker && npm run build --workspace=packages/web",
+    "deploy": "npm run deploy --workspace=packages/worker && npm run deploy --workspace=packages/web",
+    "seed": "node scripts/seed-memory.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

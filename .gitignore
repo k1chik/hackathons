@@ -24,10 +24,11 @@ Accounts used for hackathons
 .idea/
 
 # Root-level scratch / planning files (not in repo)
-DEV-FLOW.md
-HOW-TO-GUIDE.md
-/README.md
-PLAN.md
-USER-FLOW.md
-userflow.png
 pics/.DS_Store
+docs
+
+# Claude
+.claude
+
+web
+worker
