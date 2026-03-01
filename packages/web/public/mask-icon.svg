@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Monochrome caterpillar silhouette for Safari pinned tab -->
+  <path d="M224 162 Q158 108 110 44"
+        stroke="black" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <path d="M286 162 Q352 108 402 44"
+        stroke="black" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <circle cx="110" cy="44" r="38" fill="black"/>
+  <circle cx="402" cy="44" r="38" fill="black"/>
+  <circle cx="164" cy="438" r="55" fill="black"/>
+  <circle cx="168" cy="355" r="60" fill="black"/>
+  <circle cx="204" cy="274" r="64" fill="black"/>
+  <circle cx="258" cy="200" r="74" fill="black"/>
+</svg>

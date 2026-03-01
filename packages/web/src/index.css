@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-cat-black text-white font-sans;
+    overscroll-behavior: none;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cat-yellow text-cat-black font-bold py-4 px-6 rounded-2xl text-lg
+           active:scale-95 transition-transform touch-manipulation
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    background-color: theme('colors.cat.surface');
+    @apply text-white font-semibold py-4 px-6 rounded-2xl text-base
+           border border-white/10 active:scale-95 transition-transform touch-manipulation;
+  }
+
+  .card {
+    @apply bg-cat-dark rounded-2xl p-4 border border-white/5;
+  }
+
+  .badge-good {
+    @apply bg-status-good/15 text-status-good border border-status-good/25;
+  }
+
+  .badge-fair {
+    @apply bg-status-fair/15 text-status-fair border border-status-fair/25;
+  }
+
+  .badge-poor {
+    @apply bg-status-poor/15 text-status-poor border border-status-poor/25;
+  }
+
+  .badge-critical {
+    @apply bg-status-critical/15 text-status-critical border border-status-critical/25;
+  }
+
+  .status-badge {
+    @apply text-xs font-bold px-2 py-1 rounded-full uppercase tracking-wider;
+  }
+}
+
+/* Scrollbar hiding for mobile-feel */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+}
