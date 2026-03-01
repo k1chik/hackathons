@@ -29,8 +29,12 @@ pics/.DS_Store
 # Claude
 .claude
 
-web
-worker
-docs
+# Docs
+docs/DEMO.md
+docs/LESSONS-LEARNED.md
+docs/TEAM.md
+docs/engineering/GITHUB-FLOW.md
+docs/engineering/PUSH-NOTIFICATIONS.md
+
 
 
