@@ -25,10 +25,12 @@ Accounts used for hackathons
 
 # Root-level scratch / planning files (not in repo)
 pics/.DS_Store
-docs
 
 # Claude
 .claude
 
 web
 worker
+docs
+
+
