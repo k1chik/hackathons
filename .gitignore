@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.wrangler/
+
+# Environment secrets — NEVER commit these
+.env
+.env.local
+.dev.vars
+
+# Cloudflare
+.wrangler/
+
+# Local account notes
+Accounts used for hackathons
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Root-level scratch / planning files (not in repo)
+DEV-FLOW.md
+HOW-TO-GUIDE.md
+/README.md
+PLAN.md
+USER-FLOW.md
+userflow.png
+pics/.DS_Store
