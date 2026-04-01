@@ -4,6 +4,8 @@
 
 Live: [sensill.pages.dev](https://sensill.pages.dev) &nbsp;|&nbsp; Worker: [sensill-worker.kkukadia.workers.dev](https://sensill-worker.kkukadia.workers.dev)
 
+[\![Demo](https://img.youtube.com/vi/8qK3yNGtb18/0.jpg)](https://youtu.be/8qK3yNGtb18)
+
 The name comes from *sensilla* — the sensory organs on insect antennae that detect the world with precision. Every inspection adds another data point the system never forgets.
 
 ---
